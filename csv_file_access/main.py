@@ -20,7 +20,7 @@
 #     print(temperature)
 
 import pandas
-data = pandas.read_csv('weather_data.csv')
+# data = pandas.read_csv('weather_data.csv')
 #print(data)
 #print(type(data)) # <class 'pandas.core.frame.DataFrame'>
 #print(data['temp'])
@@ -50,12 +50,12 @@ data = pandas.read_csv('weather_data.csv')
 # print(data[data.temp == data.temp.max()])
 
 #hold the data of a particular row
-monday = data[data.day == 'Monday']
-# print(monday.condition)
-#print(data[data.day == 'Monday']['condition'])
-
-#convert monday temperatute to ferenhite
-celcius_temp = monday.temp
-print(celcius_temp * (9/5) + 32)
+# monday = data[data.day == 'Monday']
+# # print(monday.condition)
+# #print(data[data.day == 'Monday']['condition'])
+#
+# #convert monday temperatute to ferenhite
+# celcius_temp = monday.temp
+# print(celcius_temp * (9/5) + 32)
 
 
